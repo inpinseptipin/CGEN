@@ -1,3 +1,2 @@
-# Assignments
+# CGEN
 
-Why use Word and PDF , when you have markdown
