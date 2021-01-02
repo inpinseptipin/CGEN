@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="SgtMfz" name="CGEN_V2" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="nw0cQy" name="CGEN_V2">
+    <GROUP id="{D769FF58-CEEF-5F49-9CBA-4FAC41E4A201}" name="Source">
+      <GROUP id="{E1AD2BF2-5340-7AD6-8C02-3D23E92A0D86}" name="Configuration">
+        <FILE id="By4ZvO" name="config.cpp" compile="1" resource="0" file="Source/Configuration/config.cpp"/>
+        <FILE id="ocWRNa" name="config.h" compile="0" resource="0" file="Source/Configuration/config.h"/>
+      </GROUP>
+      <GROUP id="{800F8199-E83E-FEF7-DA9C-C9FDCD9EFE1F}" name="Parsers">
+        <FILE id="syFijK" name="CSV.cpp" compile="1" resource="0" file="Source/Parsers/CSV.cpp"/>
+        <FILE id="ndQejv" name="CSV.h" compile="0" resource="0" file="Source/Parsers/CSV.h"/>
+      </GROUP>
+      <GROUP id="{BA142F0E-3A3D-5450-38B8-FF9A15809E7F}" name="Components">
+        <FILE id="hJmrkK" name="GeneratorViewer.cpp" compile="1" resource="0"
+              file="Source/Components/GeneratorViewer.cpp"/>
+        <FILE id="lylvBS" name="GeneratorViewer.h" compile="0" resource="0"
+              file="Source/Components/GeneratorViewer.h"/>
+        <FILE id="jVyQ2I" name="RecordViewer.cpp" compile="1" resource="0"
+              file="Source/Components/RecordViewer.cpp"/>
+        <FILE id="tMRGT2" name="RecordViewer.h" compile="0" resource="0" file="Source/Components/RecordViewer.h"/>
+        <GROUP id="{E050364C-5315-FA26-ACD3-CD871E79D355}" name="Window">
+          <FILE id="LrSDpD" name="ChildWindow.cpp" compile="1" resource="0" file="Source/Components/Window/ChildWindow.cpp"/>
+          <FILE id="wU1x0c" name="ChildWindow.h" compile="0" resource="0" file="Source/Components/Window/ChildWindow.h"/>
+          <FILE id="jmY4fN" name="GeneratorWindow.cpp" compile="1" resource="0"
+                file="Source/Components/Window/GeneratorWindow.cpp"/>
+          <FILE id="W3nPWe" name="GeneratorWindow.h" compile="0" resource="0"
+                file="Source/Components/Window/GeneratorWindow.h"/>
+        </GROUP>
+        <GROUP id="{49E8A19D-AA1A-E44D-D6C8-37051F6A73EC}" name="Table">
+          <FILE id="phLglt" name="Rows.cpp" compile="1" resource="0" file="Source/Components/Table/Rows.cpp"/>
+          <FILE id="fmflSI" name="Rows.h" compile="0" resource="0" file="Source/Components/Table/Rows.h"/>
+          <FILE id="J8ewpk" name="Table.cpp" compile="1" resource="0" file="Source/Components/Table/Table.cpp"/>
+          <FILE id="sC3ajw" name="Table.h" compile="0" resource="0" file="Source/Components/Table/Table.h"/>
+        </GROUP>
+      </GROUP>
+      <FILE id="oLvvwG" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="R8A7d0" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="SCG4Oa" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="CGEN_V2"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="CGEN_V2"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
